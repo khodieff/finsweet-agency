@@ -373,6 +373,7 @@ header .header-logos {
     width: 24px;
     height: 10px;
 }
+
 /*===------------------//ended styles of intro section------------------===*/
 
 
@@ -380,29 +381,26 @@ header .header-logos {
 
 
 
-.second-intro{
+
+/*===------------------started styles of second-intro section------------------===*/
+.second-intro {
     width: 100%;
     height: 660px;
-    background-color:#ecf8f9;
+    background-color: #ecf8f9;
     position: absolute;
 }
 
-
-
-.second-intro_items{
+.second-intro_items {
     width: 100%;
     height: 468px;
-    /* background-color: rgba(255, 0, 0, 0.497); */
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 96px;
-    
+
 }
 
-
-.second-intro__item1{
+.second-intro__item1 {
     width: 624px;
     height: 364px;
     display: flex;
@@ -410,26 +408,26 @@ header .header-logos {
     justify-content: space-between;
 }
 
-.second-intro__item1 .caption{
-    font-family:var(--poppins);
+.second-intro__item1 .caption {
+    font-family: var(--poppins);
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 3px;
     text-align: left;
-    color:#000000;
+    color: #000000;
 }
 
-.second-intro__item1  h2{
-    font-family:var(--poppins);
+.second-intro__item1 h2 {
+    font-family: var(--poppins);
     font-size: 48px;
     font-weight: 600;
     line-height: 58px;
     text-align: left;
 }
 
-.second-intro__item1 p{
-    font-family:var(--poppins);
+.second-intro__item1 p {
+    font-family: var(--poppins);
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -437,14 +435,224 @@ header .header-logos {
     color: #5D5F6D;
 }
 
-
-
-
-
-
-
-.second-intro__item2{
+.second-intro__item2 {
     width: 515px;
-    height:468px;
-    /* background-color: rgb(233, 168, 6); */
+    height: 468px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
 }
+
+.second-intro__item2-child {
+    width: 515px;
+    height: 140px;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.second-intro__extraBox {
+    width: 16px;
+    height: 16px;
+    background-color: #444FCF;
+    margin-bottom: -16px;
+}
+
+.second-intro__item2-child img {
+    width: 47px;
+    height: 47px;
+    margin-top: 27px;
+    margin-left: 27px;
+}
+
+.second-intro__item2-child div {
+    width: 303px;
+    margin-top: 27px;
+    margin-left: 12px;
+}
+
+.second-intro__item2-child div h6 {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #000000;
+}
+
+.second-intro__item2-child div p {
+    font-family: var(--poppins);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #5D5F6D;
+}
+
+.second-intro__borderB {
+    width: 100%;
+    height: 8px;
+    display: flex;
+    margin-top: -13px;
+}
+
+.second-intro__borderB .color1 {
+    width: 30%;
+    height: 8px;
+    background-color: #ffa155;
+}
+
+.second-intro__borderB .color2 {
+    width: 40%;
+    height: 8px;
+    background-color: #ffd3af;
+}
+
+.second-intro__borderB .color3 {
+    width: 30%;
+    height: 8px;
+    background-color: #434cfc;
+}
+
+/*===------------------//ended styles of second-intro section------------------===*/
+
+
+
+
+
+
+
+/*===------------------started styles of main-intro section------------------===*/
+.main-intro {
+    width: 100%;
+    height: 979px;
+    background-color: #ffe6d2;
+    position: absolute;
+}
+
+.main-intro__items {
+    width: 100%;
+    height: 979px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main-intro .main-intro__item1 {
+    width: 777px;
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.main-intro__item1 p {
+    font-family: var(--poppins);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #000000;
+}
+
+.main-intro__item1 h2 {
+    font-family: var(--poppins);
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 58px;
+    text-align: left;
+    color: #232536;
+    margin-top: -18px;
+}
+
+.main-intro__btn {
+    width: 214px;
+    height: 64px;
+    border: none;
+    background-color: #434cfc;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.main-intro__btn .main-intro__btn-text {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.main-intro .main-intro__item2 {
+    width: 1280px;
+    height: 335px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-intro__item2-child {
+    width: 405px;
+    height: 335px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 36px 24px 36px 50px;
+    background-color: #fff;
+}
+
+.main-intro__item2-child .main-intro__logo {
+    width: 47px;
+    height: 47px;
+}
+
+.main-intro__item2-child h6 {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #000000;
+    margin-top: 16px;
+}
+
+.main-intro__item2-child .main-intro__text {
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #5D5F6D;
+    margin-top: 20px;
+    width: 280px;
+    height: auto;
+}
+
+.main-intro__item2-child a {
+    width: 125px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-top: 24px;
+}
+
+.main-intro__item2-child a .main-intro__link {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #444FCF;
+}
+
+.main-intro__item2-child a img {
+    width: 24px;
+    height: auto;
+}
+/*===------------------//ended styles of main-intro section------------------===*/
+
