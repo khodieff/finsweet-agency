@@ -22,10 +22,6 @@
 
 
 
-
-
-
-
 /*===------------------strted styles of nav section------------------===*/
 nav {
     width: 100%;
@@ -238,8 +234,6 @@ header .header-logos {
 
 
 
-
-
 /*===------------------//started styles of intro section------------------===*/
 .intro {
     width: 100%;
@@ -379,15 +373,11 @@ header .header-logos {
 
 
 
-
-
-
 /*===------------------started styles of second-intro section------------------===*/
 .second-intro {
     width: 100%;
     height: 660px;
     background-color: #ecf8f9;
-    /* position: absolute; */
 }
 
 .second-intro_items {
@@ -397,7 +387,6 @@ header .header-logos {
     justify-content: space-between;
     align-items: center;
     margin-top: 96px;
-
 }
 
 .second-intro__item1 {
@@ -520,14 +509,11 @@ header .header-logos {
 
 
 
-
-
 /*===------------------started styles of main-intro section------------------===*/
 .main-intro {
     width: 100%;
     height: 979px;
     background-color: #ffe6d2;
-    /* position: absolute; */
 }
 
 .main-intro__items {
@@ -654,42 +640,40 @@ header .header-logos {
     width: 24px;
     height: auto;
 }
+
 /*===------------------//ended styles of main-intro section------------------===*/
 
 
 
 
 
-
-
 /*===------------------started styles of first-main section------------------===*/
-.first-main{
+.first-main {
     width: 100%;
     height: 780px;
-    margin-top: 0;
-    position: absolute;
 }
 
-.first-main__items{
+.first-main__items {
     width: 1280px;
     height: 660px;
+    position: absolute;
     margin-top: 60px;
 }
 
-.first-main__item1{
+.first-main__item1 {
     width: 100%;
-    height:auto;
+    height: auto;
     display: flex;
     justify-content: space-between;
 }
 
-.first-main__item1 .first-item1__logo{
+.first-main__item1 .first-item1__logo {
     width: 29px;
     height: 27px;
     margin-top: 18px;
 }
 
-.first-main__item1-child{
+.first-main__item1-child {
     width: 733px;
     height: 100%;
     display: flex;
@@ -697,37 +681,36 @@ header .header-logos {
     flex-direction: column;
 }
 
-.first-main__item1-child .first-main__caption{
-    font-family:var(--poppins);
+.first-main__item1-child .first-main__caption {
+    font-family: var(--poppins);
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 3px;
     text-align: left;
-    color:#000000;
+    color: #000000;
 }
 
-.first-main__item1-child h2{
-    font-family:var(--poppins);
+.first-main__item1-child h2 {
+    font-family: var(--poppins);
     font-size: 48px;
     font-weight: 600;
     line-height: 58px;
     text-align: left;
-    color:#000000;
+    color: #000000;
 }
 
-.first-main__item1-child .first-main__text{
-    font-family:var(--poppins);
+.first-main__item1-child .first-main__text {
+    font-family: var(--poppins);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
     color: #232536;
-    width:580px;
+    width: 580px;
 }
 
-
-.first-main__item2{
+.first-main__item2 {
     width: 100%;
     height: 380px;
     margin-top: 40px;
@@ -737,21 +720,21 @@ header .header-logos {
     align-items: center;
 }
 
-.first-main__item2 img{
+.first-main__item2 img {
     width: 48px;
     height: 2px;
 }
 
-.first-main__item2-child{
+.first-main__item2-child {
     position: relative;
     width: 394px;
     height: 164px;
     border: solid 1px #dadadd;
 }
 
-.first-main__item2-child span{
+.first-main__item2-child span {
     position: absolute;
-    font-family:var(--poppins);
+    font-family: var(--poppins);
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
@@ -761,16 +744,16 @@ header .header-logos {
     top: 12px;
 }
 
-.first-main__item2-child img{
+.first-main__item2-child img {
     width: 47px;
     height: 47px;
     position: absolute;
-    left:24px;
-    top:24px;
+    left: 24px;
+    top: 24px;
 }
 
-.first-main__item2-child h6{
-    font-family:var(--poppins);
+.first-main__item2-child h6 {
+    font-family: var(--poppins);
     font-size: 16px;
     font-weight: 600;
     line-height: 28px;
@@ -778,11 +761,11 @@ header .header-logos {
     color: #000000;
     position: absolute;
     top: 24px;
-    left:86px;
+    left: 86px;
 }
 
-.first-main__item2-child p{
-    font-family:var(--poppins);
+.first-main__item2-child p {
+    font-family: var(--poppins);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -791,14 +774,206 @@ header .header-logos {
     width: 260px;
     position: absolute;
     left: 86px;
-    top:56px;
+    top: 56px;
 }
+
 /*===------------------//ended styles of first-main section------------------===*/
 
 
 
 
+/*===------------------started styles of main section------------------===*/
+main {
+    width: 100%;
+    height: 580px;
+    background-color: #f9f9ff;
+    position: absolute;
+}
+
+.main-items {
+    width: 100%;
+    height:400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:90px;
+}
+
+.main-items .main-item1 {
+    width: 502px;
+    height: 366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-item1 .main-item1__minibox {
+    width: 16px;
+    height: 16px;
+    background-color: #666DFF;
+}
+
+.main-item1 h2 {
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    text-align: left;
+    color: #232536;
+}
+
+.main-item1 .main-item1__title {
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #000000;
+}
+
+.main-item1 .main-item1__text {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #232536;
+}
+
+.main-item1 .main-item1__innerBox {
+    width: 168px;
+    height: 86px;
+}
+
+.main-item1__innerBox .innerBox-images {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-item1 .main-item1__innerBox .innerBox-info {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.main-item1 .main-item1__innerBox .innerBox-info p {
+    font-family: var(--poppins);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #000000;
+    margin-left: 4px;
+}
+
+.main-item1 .main-item1__innerBox .innerBox-info b {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
+
+.main-items .main-item2 {
+    width: 624px;
+    height: 395px;
+    position: relative;
+}
+
+.main-item2 .quota {
+    position: absolute;
+    width: 43px;
+    height: 30px;
+    right: 30px;
+    top: 12px;
+    z-index: 1;
+}
+
+.main-item2__linear {
+    position: absolute;
+    top: 30px;
+}
+
+.main-item2__btns {
+    width: 57px;
+    height: 12px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 291px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-item2__btns .main-item2__btn {
+    width: 12px;
+    height: 12px;
+    background-color: #cecfd8;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.main-item2__btns .main-item2__btn:nth-child(1) {
+    background-color: #000000;
+}
+
+.main-item2 .main-item2__innerBox {
+    width: 607px;
+    height: 340px;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    background-color: #fff;
+}
+
+.main-item2 .main-item2__innerBox h4 {
+    width: 490px;
+    font-family: var(--poppins);
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #232536;
+    margin-top: 44px;
+    margin-left: 50px;
+}
+
+.main-item2__innerBox .main-item2__innerBox-John {
+    width: 187px;
+    height: 46px;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-item2__innerBox .main-item2__innerBox-John span h6 {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #000000;
+}
 
 
+.main-item2__innerBox .main-item2__innerBox-John span p {
+    font-family: var(--poppins);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #232536;
+}
 
-
+.main-item2__innerBox .main-item2__innerBox-logo {
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+}
+/*===------------------//ended styles of main section------------------===*/
