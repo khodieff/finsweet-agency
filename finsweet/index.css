@@ -778,7 +778,6 @@ header .header-logos {
     left: 86px;
     top: 56px;
 }
-
 /*===------------------//ended styles of first-main section------------------===*/
 
 
@@ -1268,6 +1267,7 @@ footer {
 .footer-item2 ul li, a {
     text-decoration: none;
     list-style-type: none;
+    text-transform: capitalize;
 }
 
 .footer-item2 ul li:hover {
