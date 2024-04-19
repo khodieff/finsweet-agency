@@ -1,0 +1,329 @@
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* poppins font family */
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+:root {
+    --poppins: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+
+/*===------------------strted styles of nav section------------------===*/
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: #232536;
+    padding-top: 15px;
+    border-bottom: solid 1px #2f3040;
+}
+
+.navBar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.navBar .navBar-menu {
+    width: 529px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 36px;
+}
+
+.navBar-menu li a {
+    position: relative;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #a7a8af;
+    text-decoration: none;
+}
+
+.navBar-menu li .active {
+    color: #FFFFFF;
+}
+
+.navBar-menu li a::after {
+    content: "";
+    position: absolute;
+    background-color: #ffa155;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    top: -29px;
+    opacity: 0;
+}
+
+.navBar-menu li a:hover::after {
+    opacity: 1;
+    transition: 1s ease-out;
+}
+
+nav .btn-clone {
+    width: 137px;
+    height: 24px;
+    border: none;
+    background-color: initial;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.btn-clone p {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #FFD3AF;
+}
+
+.btn-clone img {
+    width: 20px;
+    height: auto;
+}
+
+/*===------------------//ended styles of nav section------------------===*/
+
+
+
+
+
+
+/*===------------------started styles of header section------------------===*/
+header {
+    width: 100%;
+    padding: 70px 0;
+}
+
+header .header-items {
+    width: 100%;
+    height: 918px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-items .header-item1 {
+    width: 624px;
+    height: 918px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-item1 .blog-bage__headLogo {
+    width: 24px;
+    height: 24px;
+    background-color: #ffdfc6;
+}
+
+.header-item1 .header-item1__caption {
+    font-family: var(--poppins);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #000000;
+}
+
+.header-item1 h2 {
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    text-align: left;
+    color: #232536;
+    width: 600px;
+}
+
+.header-item1 .header-item1__text {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #404150;
+}
+
+.header-item1 button {
+    width: 122px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background-color: initial;
+    cursor: pointer;
+}
+
+.header-item1 button span {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #444cfc;
+}
+
+.header-item1 .header-item1__person {
+    width: 421px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-item1__person .header-item1__personName {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #232536;
+}
+
+.header-item1__person .header-item1__border {
+    width: 1.5px;
+    height: 20px;
+    background-color: #cccccc;
+}
+
+.header-item1__person .header-item1__personData {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #7b7c86;
+}
+
+.header-item1 .header-item1__fotoCard {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.header-item1__fotoCard-box {
+    width: 16px;
+    height: 390px;
+}
+
+.header-item1__fotoCard-box .header-item1__fotoCard-box1 {
+    width: 16px;
+    height: 15%;
+    background-color: #434cfc;
+}
+
+.header-item1__fotoCard-box .header-item1__fotoCard-box2 {
+    width: 16px;
+    height: 60%;
+    background-color: #ffd3af;
+}
+
+.header-item1__fotoCard-box .header-item1__fotoCard-box3 {
+    width: 16px;
+    height: 25%;
+    background-color: #ffa155;
+}
+
+
+
+
+.header-items .header-item2 {
+    width: 515px;
+    height: 738px;
+    background-color: #ffdfc6;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-items .header-item2 .header-item2__logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 48px;
+    height: 52px;
+}
+
+.header-item2 .header-item2__innerBox {
+    width: 366px;
+    height: 166px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-item2 .header-item2__innerBox h4 {
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #232536;
+}
+
+.header-item2 .header-item2__infoBox {
+    width: 167px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-item2 .header-item2__infoBox img {
+    width: 32px;
+    height: 32px;
+}
+
+.header-item2 .header-item2__infoBox .andrew {
+    width: 123px;
+    height: 42px;
+}
+
+.header-item2__infoBox .header-item2__andrewJon {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #232536;
+}
+
+.header-item2__infoBox span {
+    font-family: var(--poppins);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #7b7070;
+}
+/*===------------------//ended styles of header section------------------===*/
