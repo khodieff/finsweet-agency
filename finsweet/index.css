@@ -79,7 +79,7 @@ nav .nav-wrapper {
 
 .navBar-menu li a:hover::after {
     opacity: 1;
-    transition: 1s ease-out;
+    transition:1s ease-out;
 }
 
 nav .btn-clone {
@@ -386,7 +386,6 @@ header .header-logos {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .second-intro__item1 {
